@@ -1,6 +1,7 @@
 package main
 
 import (
+	divideandconquer "algo/divideAndConquer"
 	"algo/recursion"
 	"fmt"
 )
@@ -16,6 +17,12 @@ func main() {
 	fib := recursion.Fibonacci(num2)
 
 	gcd := recursion.GCD(num1, num2)
+
+	inputArray := []int{10, 30, 3, 56, 21}
+
+	max, min := divideandconquer.FindMaxMinUsingDAC(inputArray)
+
+	fmt.Println(max, min)
 
 	fmt.Println(fact)
 	fmt.Printf("multiplication %v\n", result)
