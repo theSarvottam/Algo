@@ -18,11 +18,14 @@ func main() {
 
 	gcd := recursion.GCD(num1, num2)
 
-	inputArray := []int{10, 30, 3, 56, 21}
+	inputArray := []int{10, 30, 40, 56, 80}
 
 	max, min := divideandconquer.FindMaxMinUsingDAC(inputArray)
 
+	elementIndex := divideandconquer.BinarySearch(inputArray, 56)
+
 	fmt.Println(max, min)
+	fmt.Println(elementIndex)
 
 	fmt.Println(fact)
 	fmt.Printf("multiplication %v\n", result)
