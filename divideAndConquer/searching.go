@@ -78,8 +78,10 @@ func findStartIndex(inputSlice []int, midElement, firstIndex, lastIndex int) int
 	return startIndex
 
 }
-func findLastINdex(inputSlice []int, midElement, startIndex, lastIndex int) int {
+func findLastINdex(inputSlice []int, midElement, startIndex, endIndex int) int {
 
-	return -1
+	lastIndex := -1
+
+	return lastIndex
 
 }
